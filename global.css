@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --buttons-middle: "DM Sans";
+  --font-fontawesome: FontAwesome;
+  --link: "Abhaya Libre";
+
+  /* font sizes */
+  --buttons-middle-size: 18px;
+  --link-size: 16px;
+  --font-size-5xl: 24px;
+  --buttons-big-size: 20px;
+  --heading-h3-title-size: 42px;
+  --button-size: 17px;
+  --font-size-33xl: 52px;
+  --font-size-13xl: 32px;
+  --headline-size: 80px;
+
+  /* Colors */
+  --light-text: #fff;
+  --dark-background: #000;
+  --colors-heading: #1e0e62;
+  --action-primary: #25dac5;
+  --colors-grey: #ebeaed;
+  --socials-youtube: #ea3223;
+  --primary: #4452fe;
+  --action-secondary: #482be7;
+
+  /* Gaps */
+  --gap-31xl: 50px;
+  --gap-21xl: 40px;
+  --gap-lgi: 19px;
+  --gap-16xl: 35px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-3xs: 10px;
+  --padding-31xl: 50px;
+  --padding-11xl: 30px;
+  --padding-lgi: 19px;
+  --padding-10xs: 3px;
+
+  /* border radiuses */
+  --br-xl: 20px;
+  --br-81xl: 100px;
+  --br-3xs: 10px;
+  --br-21xl: 40px;
+  --br-8xs: 5px;
+
+  /* Effects */
+  --shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+}
